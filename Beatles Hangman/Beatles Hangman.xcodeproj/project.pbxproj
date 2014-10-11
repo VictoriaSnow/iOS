@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89A35EDD19E9B64800C41A60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A35EDC19E9B64800C41A60 /* main.m */; };
+		89A35EE019E9B64800C41A60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A35EDF19E9B64800C41A60 /* AppDelegate.m */; };
+		89A35EE219E9B64800C41A60 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A35EE119E9B64800C41A60 /* art.scnassets */; };
+		89A35EE519E9B64800C41A60 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A35EE419E9B64800C41A60 /* GameViewController.m */; };
+		89A35EE819E9B64800C41A60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A35EE619E9B64800C41A60 /* Main.storyboard */; };
+		89A35EEA19E9B64800C41A60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A35EE919E9B64800C41A60 /* Images.xcassets */; };
+		89A35EED19E9B64800C41A60 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A35EEB19E9B64800C41A60 /* LaunchScreen.xib */; };
+		89A35EF919E9B64800C41A60 /* Beatles_HangmanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A35EF819E9B64800C41A60 /* Beatles_HangmanTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89A35EF319E9B64800C41A60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89A35ECF19E9B64700C41A60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89A35ED619E9B64700C41A60;
+			remoteInfo = "Beatles Hangman";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89A35ED719E9B64800C41A60 /* Beatles Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beatles Hangman.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A35EDB19E9B64800C41A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A35EDC19E9B64800C41A60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89A35EDE19E9B64800C41A60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89A35EDF19E9B64800C41A60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89A35EE119E9B64800C41A60 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		89A35EE319E9B64800C41A60 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		89A35EE419E9B64800C41A60 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		89A35EE719E9B64800C41A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89A35EE919E9B64800C41A60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		89A35EEC19E9B64800C41A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		89A35EF219E9B64800C41A60 /* Beatles HangmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beatles HangmanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A35EF719E9B64800C41A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A35EF819E9B64800C41A60 /* Beatles_HangmanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beatles_HangmanTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89A35ED419E9B64700C41A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A35EEF19E9B64800C41A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89A35ECE19E9B64700C41A60 = {
+			isa = PBXGroup;
+			children = (
+				89A35ED919E9B64800C41A60 /* Beatles Hangman */,
+				89A35EF519E9B64800C41A60 /* Beatles HangmanTests */,
+				89A35ED819E9B64800C41A60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89A35ED819E9B64800C41A60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89A35ED719E9B64800C41A60 /* Beatles Hangman.app */,
+				89A35EF219E9B64800C41A60 /* Beatles HangmanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89A35ED919E9B64800C41A60 /* Beatles Hangman */ = {
+			isa = PBXGroup;
+			children = (
+				89A35EDE19E9B64800C41A60 /* AppDelegate.h */,
+				89A35EDF19E9B64800C41A60 /* AppDelegate.m */,
+				89A35EE119E9B64800C41A60 /* art.scnassets */,
+				89A35EE319E9B64800C41A60 /* GameViewController.h */,
+				89A35EE419E9B64800C41A60 /* GameViewController.m */,
+				89A35EE619E9B64800C41A60 /* Main.storyboard */,
+				89A35EE919E9B64800C41A60 /* Images.xcassets */,
+				89A35EEB19E9B64800C41A60 /* LaunchScreen.xib */,
+				89A35EDA19E9B64800C41A60 /* Supporting Files */,
+			);
+			path = "Beatles Hangman";
+			sourceTree = "<group>";
+		};
+		89A35EDA19E9B64800C41A60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89A35EDB19E9B64800C41A60 /* Info.plist */,
+				89A35EDC19E9B64800C41A60 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89A35EF519E9B64800C41A60 /* Beatles HangmanTests */ = {
+			isa = PBXGroup;
+			children = (
+				89A35EF819E9B64800C41A60 /* Beatles_HangmanTests.m */,
+				89A35EF619E9B64800C41A60 /* Supporting Files */,
+			);
+			path = "Beatles HangmanTests";
+			sourceTree = "<group>";
+		};
+		89A35EF619E9B64800C41A60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89A35EF719E9B64800C41A60 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89A35ED619E9B64700C41A60 /* Beatles Hangman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A35EFC19E9B64800C41A60 /* Build configuration list for PBXNativeTarget "Beatles Hangman" */;
+			buildPhases = (
+				89A35ED319E9B64700C41A60 /* Sources */,
+				89A35ED419E9B64700C41A60 /* Frameworks */,
+				89A35ED519E9B64700C41A60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Beatles Hangman";
+			productName = "Beatles Hangman";
+			productReference = 89A35ED719E9B64800C41A60 /* Beatles Hangman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89A35EF119E9B64800C41A60 /* Beatles HangmanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A35EFF19E9B64800C41A60 /* Build configuration list for PBXNativeTarget "Beatles HangmanTests" */;
+			buildPhases = (
+				89A35EEE19E9B64800C41A60 /* Sources */,
+				89A35EEF19E9B64800C41A60 /* Frameworks */,
+				89A35EF019E9B64800C41A60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89A35EF419E9B64800C41A60 /* PBXTargetDependency */,
+			);
+			name = "Beatles HangmanTests";
+			productName = "Beatles HangmanTests";
+			productReference = 89A35EF219E9B64800C41A60 /* Beatles HangmanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89A35ECF19E9B64700C41A60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Beatles Hangman";
+				TargetAttributes = {
+					89A35ED619E9B64700C41A60 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					89A35EF119E9B64800C41A60 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 89A35ED619E9B64700C41A60;
+					};
+				};
+			};
+			buildConfigurationList = 89A35ED219E9B64700C41A60 /* Build configuration list for PBXProject "Beatles Hangman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89A35ECE19E9B64700C41A60;
+			productRefGroup = 89A35ED819E9B64800C41A60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89A35ED619E9B64700C41A60 /* Beatles Hangman */,
+				89A35EF119E9B64800C41A60 /* Beatles HangmanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89A35ED519E9B64700C41A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A35EED19E9B64800C41A60 /* LaunchScreen.xib in Resources */,
+				89A35EEA19E9B64800C41A60 /* Images.xcassets in Resources */,
+				89A35EE219E9B64800C41A60 /* art.scnassets in Resources */,
+				89A35EE819E9B64800C41A60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A35EF019E9B64800C41A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89A35ED319E9B64700C41A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A35EE019E9B64800C41A60 /* AppDelegate.m in Sources */,
+				89A35EE519E9B64800C41A60 /* GameViewController.m in Sources */,
+				89A35EDD19E9B64800C41A60 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A35EEE19E9B64800C41A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A35EF919E9B64800C41A60 /* Beatles_HangmanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89A35EF419E9B64800C41A60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89A35ED619E9B64700C41A60 /* Beatles Hangman */;
+			targetProxy = 89A35EF319E9B64800C41A60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89A35EE619E9B64800C41A60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89A35EE719E9B64800C41A60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89A35EEB19E9B64800C41A60 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89A35EEC19E9B64800C41A60 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89A35EFA19E9B64800C41A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89A35EFB19E9B64800C41A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89A35EFD19E9B64800C41A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Beatles Hangman/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89A35EFE19E9B64800C41A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Beatles Hangman/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		89A35F0019E9B64800C41A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Beatles HangmanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beatles Hangman.app/Beatles Hangman";
+			};
+			name = Debug;
+		};
+		89A35F0119E9B64800C41A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Beatles HangmanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beatles Hangman.app/Beatles Hangman";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89A35ED219E9B64700C41A60 /* Build configuration list for PBXProject "Beatles Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A35EFA19E9B64800C41A60 /* Debug */,
+				89A35EFB19E9B64800C41A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A35EFC19E9B64800C41A60 /* Build configuration list for PBXNativeTarget "Beatles Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A35EFD19E9B64800C41A60 /* Debug */,
+				89A35EFE19E9B64800C41A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89A35EFF19E9B64800C41A60 /* Build configuration list for PBXNativeTarget "Beatles HangmanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A35F0019E9B64800C41A60 /* Debug */,
+				89A35F0119E9B64800C41A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89A35ECF19E9B64700C41A60 /* Project object */;
+}
