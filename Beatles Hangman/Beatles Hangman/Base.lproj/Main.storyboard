@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qHw-zN-16m">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Beatles Hangman-->
@@ -16,38 +17,62 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Letter:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vy9-hA-uyb">
-                                <rect key="frame" x="16" y="103" width="67" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Letter:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vy9-hA-uyb">
+                                <rect key="frame" x="36" y="100" width="67" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="67" id="KLO-vc-Chs"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Word:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBY-wc-rlm">
-                                <rect key="frame" x="16" y="155" width="65" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Word:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBY-wc-rlm">
+                                <rect key="frame" x="36" y="150" width="65" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Give me a letter..." minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="tnP-Fj-PfW">
-                                <rect key="frame" x="105" y="103" width="129" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hangman0.gif" translatesAutoresizingMaskIntoConstraints="NO" id="4cy-wH-NJA">
+                                <rect key="frame" x="15" y="273" width="324" height="283"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="324" id="93U-kT-Md1"/>
+                                    <constraint firstAttribute="height" constant="283" id="CLx-xu-hA8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eyE-Dw-gus">
+                                <rect key="frame" x="58" y="192" width="228" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="Xsp-fO-PcL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="4" height="3"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Give me a letter..." textAlignment="center" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="tnP-Fj-PfW">
+                                <rect key="frame" x="113" y="100" width="173" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" keyboardType="namePhonePad"/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="JoA-N5-5Ad"/>
                                 </connections>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hangman0.gif" translatesAutoresizingMaskIntoConstraints="NO" id="4cy-wH-NJA">
-                                <rect key="frame" x="16" y="243" width="324" height="283"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eyE-Dw-gus">
-                                <rect key="frame" x="105" y="155" width="235" height="55"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="20"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="4" height="3"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Vy9-hA-uyb" firstAttribute="trailing" secondItem="JBY-wc-rlm" secondAttribute="trailing" constant="2" id="1Yu-vY-DFp"/>
+                            <constraint firstItem="4cy-wH-NJA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-1" id="2aa-WQ-PnR"/>
+                            <constraint firstItem="tnP-Fj-PfW" firstAttribute="leading" secondItem="Vy9-hA-uyb" secondAttribute="trailing" constant="10" id="6V9-SC-K5E"/>
+                            <constraint firstItem="4cy-wH-NJA" firstAttribute="centerX" secondItem="tnP-Fj-PfW" secondAttribute="centerX" id="7dB-wG-NCp"/>
+                            <constraint firstItem="JBY-wc-rlm" firstAttribute="top" secondItem="Vy9-hA-uyb" secondAttribute="bottom" constant="21" id="9hy-nY-FHK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4cy-wH-NJA" secondAttribute="bottom" id="L54-G8-rjw"/>
+                            <constraint firstItem="eyE-Dw-gus" firstAttribute="top" secondItem="JBY-wc-rlm" secondAttribute="bottom" constant="13" id="NDS-1w-zgU"/>
+                            <constraint firstItem="Vy9-hA-uyb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="36" id="PRm-7X-zZ1"/>
+                            <constraint firstItem="Vy9-hA-uyb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="UVP-Sn-JTO"/>
+                            <constraint firstItem="eyE-Dw-gus" firstAttribute="trailing" secondItem="tnP-Fj-PfW" secondAttribute="trailing" id="Vai-BX-AGQ"/>
+                            <constraint firstItem="Vy9-hA-uyb" firstAttribute="top" secondItem="tnP-Fj-PfW" secondAttribute="top" id="e1u-qX-MrT"/>
+                            <constraint firstItem="eyE-Dw-gus" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="42" id="gu9-O0-f9f"/>
+                        </constraints>
                     </view>
                     <toolbarItems>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="SJE-Md-9pF"/>

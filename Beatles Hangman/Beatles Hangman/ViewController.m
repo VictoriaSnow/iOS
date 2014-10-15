@@ -74,7 +74,7 @@
     
     self.secretWord=[initializeWord getWord];
     [self initializeUI:self.secretWord];
-    NSLog(@"Value of letter = %@", self.secretWord);
+    NSLog(@"The secret word is = %@", self.secretWord);
 }
 
 
@@ -96,8 +96,8 @@
 
         }
     }
-    NSLog(@"Value of letter = %@", self.wordLabel.text);
-    NSLog(@"Value of letter = %@", self.secretWord);
+    NSLog(@"The letter is = %@", self.wordLabel.text);
+    NSLog(@"The secret word is = %@", self.secretWord);
     
     if ([self.wordLabel.text isEqualToString:self.secretWord]) {
         NSLog(@"WIN IS TRUE");
@@ -167,7 +167,7 @@
     UIAlertView *alert = [[UIAlertView alloc]
                           
                           initWithTitle:@"Oops!"
-                          message:@"You are dead!"
+                          message:[NSString stringWithFormat:@"You are dead! The correct word is \n%@.", self.secretWord]
                           delegate:nil
                           cancelButtonTitle:@"Dismiss"
                           otherButtonTitles:nil];
